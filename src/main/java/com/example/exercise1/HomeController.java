@@ -20,4 +20,19 @@ public class HomeController {
     public String pancakes(){
         return "pancakes";
     }
+
+    @RequestMapping("/veggiepestopasta")
+    public String veggiePestoPasta(){
+        return "veggiepestopasta";
+    }
+
+    @RequestMapping("/roastedchicken")
+    public String roastedChicken(){
+        return "roastedchicken";
+    }
+
+    @RequestMapping("/waffles")
+    public String waffles(){
+        return "waffles";
+    }
 }
