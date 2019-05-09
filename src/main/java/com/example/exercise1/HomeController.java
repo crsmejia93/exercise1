@@ -15,4 +15,9 @@ public class HomeController {
     public String crabCake(){
         return "crabcake";
     }
+
+    @RequestMapping("/pancakes")
+    public String pancakes(){
+        return "pancakes";
+    }
 }
